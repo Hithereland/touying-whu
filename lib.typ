@@ -226,7 +226,7 @@
 ) = touying-slide-wrapper(self => {
   let self = utils.merge-dicts(
     self,
-    config-page(header: sjtu-header, footer: sjtu-footer, margin: (x: 2.5cm)),
+    config-page(header: sjtu-header, footer: sjtu-footer, margin: (x: 1.25cm)),
     config-common(subslide-preamble: self.store.subslide-preamble),
   )
   touying-slide(self: self, config: config, repeat: repeat, setting: setting, composer: composer, ..bodies)
@@ -469,9 +469,9 @@
                 }
                 if slide.location().page() <= current-page {
                   [#link(slide.location(), text(
-                      size: .7em,
-                      v(0em) + box(height: 0.8em, sym.circle.filled) + "  " + hd.body,
-                    ))]
+                    size: .7em,
+                    v(0em) + box(height: 0.8em, sym.circle.filled) + "  " + hd.body,
+                  ))]
                 } else {
                   [#link(slide.location(), text(size: .7em, v(0em) + box(height: 0.8em, sym.circle) + "  " + hd.body))]
                 }
@@ -592,9 +592,13 @@
 
 
 #let end-slide(config: (:), body) = touying-slide-wrapper(self => {
-  self = utils.merge-dicts(self, config-common(freeze-slide-counter: true, new-section-slide-fn: none), config-page(
-    margin: 2em,
-  ))
+  self = utils.merge-dicts(
+    self,
+    config-common(freeze-slide-counter: true, new-section-slide-fn: none),
+    config-page(
+      margin: 2em,
+    ),
+  )
   set text(fill: self.colors.primary, size: 1.65em, weight: "bold")
   let body = {
     set page(background: align(left + bottom, image("vi/sjtu-vi-sjtubg.png", width: if self.show-notes-on-second-screen
