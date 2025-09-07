@@ -2,9 +2,9 @@
 name = "touying-simpl-whu"
 version = "0.1.0"
 entrypoint = "lib.typ"
-authors = ["nowherechan"]
+authors = ["tzhtaylor", "nowherechan"]
 license = "MIT"
-description = "武汉大学 Touying 幻灯片主题 (Touying Slide Theme for WHU)"
+description = "武汉大学 Touying 幻灯片主题 (Touying Slide Theme for WHU), based on SJTU theme"
 repository = "https://github.com/Hithereland/touying-whu"
 keywords = ["touying", "slide", "whu"]
 categories = ["presentation"]

@@ -1,4 +1,9 @@
+// MIT License
+// Copyright (c) 2024 tzhtaylor (Original SJTU theme)
+// Copyright (c) 2025 nowherechan (WHU modifications)
+//
 // This theme is inspired by https://github.com/zbowang/BeamerTheme and https://github.com/touying-typ/touying/blob/main/themes/dewdrop.typ
+// WHU modifications based on https://github.com/tzhtaylor/touying-sjtu
 
 #import "@preview/touying:0.6.1": *
 
