@@ -1,12 +1,16 @@
-# 上海交通大学 Touying 幻灯片主题 (Touying Slide Theme for SJTU)
+# 武汉大学 Touying 幻灯片主题 (Touying Slide Theme for WHU)
+
+本模板基于[上海交通大学主题](https://github.com/tzhtaylor/touying-sjtu)进行修改。
+
+部分背景图来自[武汉大学 beamer 模板](https://github.com/hrtan99/WHU-Beamer)。
 
 本模板基于 Touying [Dewdrop](https://github.com/touying-typ/touying/blob/main/themes/dewdrop.typ) 主题开发。
 
-![Thumbnail of the project](https://github.com/tzhTaylor/touying-sjtu/blob/main/thumbnail.png)
+![Thumbnail of the project](thumbnail.png)
 
 ## 示例
 
-查看 [示例](examples) 和 [Github Pages](https://tzhtaylor.github.io/touying-sjtu) 以获取更多详情。
+查看 [示例](examples) 和 [Github Pages](https://hithereland.github.io/touying-whu/) 以获取更多详情。
 
 你也可以自行编译示例文件：
 
@@ -15,14 +19,6 @@ typst compile ./examples/main.typ --root .
 ```
 
 生成的 PDF 文件位于 `./examples/main.pdf`。
-
-## 使用 Typst Universe 模板库版本
-
-使用 `typst init @preview/touying-simpl-sjtu` 创建一个新的项目，并应用该主题。
-
-## 使用 Github 仓库版本
-
-运行命令 `git clone https://github.com/tzhTaylor/touying-sjtu`，克隆本仓库到本地。
 
 ## License
 

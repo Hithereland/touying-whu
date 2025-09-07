@@ -12,11 +12,11 @@
   footer: self => self.info.institution,
   navigation: "mini-slides",
   config-info(
-    title: [Typst Slide Theme for SJTU Based on Touying],
-    subtitle: [基于 Touying 的上海交通大学 Typst 幻灯片模板],
-    author: [tzhtaylor],
+    title: [Typst Slide Theme for WHU Based on Touying],
+    subtitle: [基于 Touying 的武汉大学 Typst 幻灯片模板],
+    author: [Nowhere Man],
     date: datetime.today(),
-    institution: [上海交通大学],
+    institution: [武汉大学],
   ),
 )
 
